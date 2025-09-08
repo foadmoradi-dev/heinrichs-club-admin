@@ -1,0 +1,11 @@
+.container {
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #ffffff;
+}
+
+.load{
+    margin-right: auto;
+    margin-left: auto;
+}

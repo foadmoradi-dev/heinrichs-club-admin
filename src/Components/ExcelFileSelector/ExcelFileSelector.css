@@ -1,0 +1,59 @@
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+    color: rgb(255,255,255);
+    background-color: rgb(255,64,129);
+}
+.mdl-button{
+    background: 0 0;
+    border: none;
+    border-radius: 2px;
+    color: #000;
+    position: relative;
+    height: 36px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 16px;
+    display: inline-block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+}
+.file-upload {
+    margin: 0 10px 0 25px;
+}
+.file-upload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    font-size: 20px;
+    cursor: pointer;
+    height: 36px;
+    opacity: 0;
+}
+#fileuploadurl {
+    border: none;
+    font-size: 15px;
+    padding-left: 0;
+    width: 250px;
+    background: rgba(255, 255, 255, 0);
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: #ff0000;
+}
+.file-upload {
+    margin: 0 10px 0 25px;
+}

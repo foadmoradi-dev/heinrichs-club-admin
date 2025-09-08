@@ -1,0 +1,36 @@
+.notfound-404 {
+    position: relative;
+    height: 500px;
+}
+.notfound-404-h1 {
+    font-family: montserrat,sans-serif;
+    font-size: 150px;
+    font-weight: 200;
+    margin: 0;
+    color: #bc76e7;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.notfound-404-h2 {
+    font-family: montserrat,sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #cf28e7;
+    background: rgb(255, 255, 255);
+    padding: 5px 5px;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    top: 58%;
+    left: 0;
+    right: 0;
+}
+@media screen {
+
+}
