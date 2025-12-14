@@ -1,5 +1,5 @@
-import LoginForm from "../../Components/LoginForm/LoginForm";
-import RegisterGuaranteeForm from "../../Components/RegisterGuaranteeForm/RegisterGuaranteeForm";
+import LoginForm from "../../components/LoginForm/LoginForm";
+import RegisterGuaranteeForm from "../../components/RegisterGuaranteeForm/RegisterGuaranteeForm";
 
 const RegisterGuarantee = () => {
     return(

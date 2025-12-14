@@ -1,4 +1,4 @@
-import AddGuaranties from "../../Components/AddGuaranties/AddGuaranties";
+import AddGuaranties from "../../components/AddGuaranties/AddGuaranties";
 
 const AddGuarantiesContainer = () => {
 
