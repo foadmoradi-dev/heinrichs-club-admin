@@ -28,7 +28,12 @@ const AgentCard = ({ agent }) => {
 
     const updateMutation = useMutation({
         mutationFn: updateAgent,
-        onSuccess: () => queryClient.invalidateQueries(["agents"]),
+        onSuccess: () => {
+            queryClient.invalidateQueries({
+                queryKey: ["agents"],
+                exact: false,
+            });
+        },
     });
 
     // Delete mutation
