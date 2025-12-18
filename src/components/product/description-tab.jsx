@@ -12,7 +12,7 @@ export default function DescriptionsTab({ control }) {
                     control={control}
                     render={({ field }) => (
                         <Editor
-                            apiKey="azmhwli7oc2nwxuenr1z7ecmvu2xh8x6dh5b7hvi7djgxf8s"
+                            apiKey="33rdsixt53ker06nvc51l1xfb66b1k96yarlyb91sgu6mzhb"
                             value={field.value}
                             init={{
                                 height: 200,
@@ -35,7 +35,7 @@ export default function DescriptionsTab({ control }) {
                     control={control}
                     render={({ field }) => (
                         <Editor
-                            apiKey="azmhwli7oc2nwxuenr1z7ecmvu2xh8x6dh5b7hvi7djgxf8s"
+                            apiKey="33rdsixt53ker06nvc51l1xfb66b1k96yarlyb91sgu6mzhb"
                             value={field.value}
                             init={{
                                 height: 350,
