@@ -45,7 +45,7 @@ export default function ReplyForm({ ticketId, userId, role }) {
     return (
         <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-3">
             <Editor
-                apiKey="kqtr5xdorxgqbolq020aq8d84t9drylmco1d23xbcxb1e5en" // optional, or use your TinyMCE cloud key
+                apiKey="33rdsixt53ker06nvc51l1xfb66b1k96yarlyb91sgu6mzhb" // optional, or use your TinyMCE cloud key
                 value={content}
                 onEditorChange={(newValue) => setContent(newValue)}
                 init={{
