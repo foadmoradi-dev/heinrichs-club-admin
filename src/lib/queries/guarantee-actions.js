@@ -121,3 +121,10 @@ export async function activeGuarantee(guarantee) {
     console.log(data);
     return data;
 }
+
+
+
+export const postGuarantees = async (barcodes) => {
+    const { data } = await Api.post("/guarantee", barcodes);
+    return data;
+};

@@ -29,6 +29,7 @@ import OrderDetailsPage from "./pages/order-details";
 import ServiceCompaniesPage from "./pages/service-companies";
 import NewServiceCompanyPage from "./pages/new-service-company";
 import ModifyServiceCompanyPage from "./pages/modify-service-company";
+import GuarantiesRegistrationPage from "./pages/guaranties-registration";
 
 const queryClient = new QueryClient();
 
@@ -48,7 +49,7 @@ const router = createBrowserRouter([
             { path: "/dashboard", element: <RouteProtector><Dashboard /></RouteProtector>},
             { path: "/dashboard/guaranties-management", element: <RouteProtector><GuarantiesManagement /></RouteProtector>},
             { path: "/dashboard/guaranties-management/guarantee-activation", element: <RouteProtector><GuaranteeActivationPage  /></RouteProtector>},
-            { path: "/dashboard/guaranties-management/guarantee-registration", element: <RouteProtector><GuarantiesManagementPage  /></RouteProtector>},
+            { path: "/dashboard/guaranties-management/guarantee-registration", element: <RouteProtector><GuarantiesRegistrationPage  /></RouteProtector>},
             { path: "/dashboard/agents-management", element: <RouteProtector><AgentsManagementPage /></RouteProtector>},
             { path: "/dashboard/agents-management/:agentId", element: <RouteProtector><AgentsManagementPage /></RouteProtector>},
             { path: "/dashboard/profile", element: <RouteProtector><Profile /></RouteProtector>},

@@ -1,7 +1,6 @@
 import {useState} from "react";
 import "./ExcelFileSelector.css"
-import {Button} from "@mui/material";
-import {TextFields} from "@mui/icons-material";
+
 const ExcelFileSelector = (props) => {
     const [fileName, setFileName] = useState("File must be xlsx or xls format")
     const fileInputSelectionHandler = (event) => {
