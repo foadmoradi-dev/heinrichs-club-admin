@@ -96,7 +96,7 @@ export default function ServiceForm() {
                 <Input
                     name="company_manager"
                     label="Company Manager"
-                    value={data.company_manager}
+                    value={data?.company_manager}
                     error={!!errors.company_manger}
                     helperText={errors.company_manger}
                 />
@@ -104,7 +104,7 @@ export default function ServiceForm() {
                 <Input
                     name="company_name"
                     label="Company Name"
-                    value={data.company_name}
+                    value={data?.company_name}
                     error={!!errors.company_name}
                     helperText={errors.company_name}
                 />
@@ -112,7 +112,7 @@ export default function ServiceForm() {
                 <Input
                     name="company_id"
                     label="Company ID"
-                    value={data.company_id}
+                    value={data?.company_id}
                     error={!!errors.company_id}
                     helperText={errors.company_id}
                 />
@@ -121,7 +121,7 @@ export default function ServiceForm() {
                     type="email"
                     name="email"
                     label="Email"
-                    value={data.email}
+                    value={data?.email}
                     error={!!errors.email}
                     helperText={errors.email}
                 />
@@ -129,21 +129,21 @@ export default function ServiceForm() {
                 <Input
                     name="phone_number"
                     label="Phone Number"
-                    value={data.phone_number}
+                    value={data?.phone_number}
                     defaultValue={defaultValues.phone_number}
                 />
 
                 <Input
                     name="company_phone_customer"
                     label="Customer Phone"
-                    value={data.company_phone_customer}
+                    value={data?.company_phone_customer}
                     defaultValue={defaultValues.company_phone_customer}
                 />
 
                 <Input
                     name="company_phone"
                     label="Company Phone"
-                    value={data.company_phone}
+                    value={data?.company_phone}
                     defaultValue={defaultValues.company_phone}
                 />
 
@@ -157,13 +157,13 @@ export default function ServiceForm() {
                 <Input
                     name="company_website"
                     label="Company Website"
-                    value={data.company_website}
+                    value={data?.company_website}
                     defaultValue={defaultValues.company_website}
                 />
                 <Input
                     name="company_sms_service"
                     label="Company SMS Service"
-                    value={data.company_sms_service}
+                    value={data?.company_sms_service}
                     defaultValue={defaultValues.company_sms_service}
                 />
 
