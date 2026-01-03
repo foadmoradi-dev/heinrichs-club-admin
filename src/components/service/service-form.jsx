@@ -75,10 +75,10 @@ export default function ServiceForm() {
         if (!validate(data)) return;
 
         // remove passwords in edit mode
-        if (isEdit) {
-            delete data.password;
-            delete data.repeat_password;
-        }
+        // if (isEdit) {
+        //     delete data.password;
+        //     delete data.repeat_password;
+        // }
 
         mutate(data);
     };
@@ -166,27 +166,21 @@ export default function ServiceForm() {
                     value={data?.company_sms_service}
                     defaultValue={defaultValues.company_sms_service}
                 />
+                <Input
+                    type="password"
+                    name="password"
+                    label="Password"
+                    error={!!errors.password}
+                    helperText={errors.password}
+                />
 
-                {!isEdit && (
-                    <>
-                        <Input
-                            type="password"
-                            name="password"
-                            label="Password"
-                            error={!!errors.password}
-                            helperText={errors.password}
-                        />
-
-                        <Input
-                            type="password"
-                            name="repeat_password"
-                            label="Repeat Password"
-                            error={!!errors.repeat_password}
-                            helperText={errors.repeat_password}
-                        />
-                    </>
-                )}
-
+                <Input
+                    type="password"
+                    name="repeat_password"
+                    label="Repeat Password"
+                    error={!!errors.repeat_password}
+                    helperText={errors.repeat_password}
+                />
                 <div className="col-span-full">
                     <FormButton
                         type="submit"
